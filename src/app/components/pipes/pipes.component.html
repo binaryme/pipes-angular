@@ -1,0 +1,36 @@
+<!-- Monterrey, {{hoy | date: 'd/My H:m'}}
+Monterrey, 1/82018 9:32 -->
+
+<!-- Monterrey, {{hoy | date: 'd-M-y'}} a las {{hoy | date: 'H:m Z'}} Monterrey, 1-8-2018
+  a las 9:28 -0500 -->
+
+<!--{{ciudad | uppercase}}
+MONTERREY transforma los caracteres a mayusculas -->
+
+<!-- {{ciudad | lowercase}}
+monterrey -->
+<!-- El resultado es {{resultado | number: '5.1-2'}} 
+para ver cómo solucionar el problema en javascript de 0.1 + 0.2 == 0.3 es false IEE754, https://github.com/getify/You-Dont-Know-JS/blob/master/types%20%26%20grammar/ch2.md
+-->
+
+<!-- La cotización actual del dólar es de {{pesos | currency: 'MXN'}} 
+La cotización actual del dólar es de {{pesos | currency:
+'EUR'}} 
+La cotización actual del dólar es de {{pesos | currency: 'USD'}} -->
+
+<!--{{sexo | i18nSelect: encabezamiento }} {{nombre}}-->
+<!-- {{lenguaje | i18nSelect: mensaje}} -->
+{{pesos | euro}}
+
+
+
+<!-- simbolo componente
+y          año
+M          mes
+d          dia 
+h          hora en formato de 12 horas 
+H          hora en formato 24 horas 
+m          minutos 
+s          segundos 
+Z          time zone 
+-->
